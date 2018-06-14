@@ -40,7 +40,7 @@ SiamVGG adopts SiamFC as the baseline approach. It applies a fully-convolutional
   
 ### Preparation for the tests
 
-1. We assume the vot-toolkit root is VOT-TOOLKIT, and VOT-TOOLKIT = /path/to/vot-toolkit
+1. We assume the vot-toolkit root is VOT-TOOLKIT, and $VOT-TOOLKIT = /path/to/vot-toolkit
 
 ```
 
@@ -48,22 +48,31 @@ git clone https://github.com/votchallenge/vot-toolkit.git
 
 ```
 
-2. add VOT-TOOLKIT and its subfolder to MATLAB path
+2. add $VOT-TOOLKIT and its subfolder to MATLAB path
 
-3. create VOT-TOOLKIT/vot-workspace
+3. create $VOT-TOOLKIT/vot-workspace
 
-4. run workspace_create.m in VOT-TOOLKIT/vot-workspace, assume your tracker as 'SiamVGG' with python interpreter.
+4. run workspace_create.m in $VOT-TOOLKIT/vot-workspace, assume your tracker as 'SiamVGG' with python interpreter.
 
-5. replace VOT-TOOLKIT/tracker/examples/python with tracker/examples/python
+5. replace $VOT-TOOLKIT/tracker/examples/python with tracker/examples/python
 
-6. replace VOT-TOOLKIT/vot-workspace／tracker_SiamVGG.m with vot-workspace/tracker_SiamVGG.m
+6. replace $VOT-TOOLKIT/vot-workspace／tracker_SiamVGG.m with vot-workspace/tracker_SiamVGG.m
 
-7. modify line 17 in VOT-TOOLKIT/vot-workspace／tracker_SiamVGG.m
-
-```
-
-tracker_command = generate_python_command('python_siamvgg', {'VOT-TOOLKIT/tracker/examples/python'});
+7. modify line 17 in $VOT-TOOLKIT/vot-workspace／tracker_SiamVGG.m
 
 ```
 
-8. 
+tracker_command = generate_python_command('python_siamvgg', {'$VOT-TOOLKIT/tracker/examples/python'});
+
+```
+
+8. modify line 8, line 10, line 12, line 14, line 16 in $VOT-TOOLKIT/tracker/examples/python/src/parse_arguments.py, replace '/home/lee/tracking/challenge/vot-toolkit/' with '$VOT-TOOLKIT/'
+
+
+9. modify line 45 in $VOT-TOOLKIT/tracker/examples/python/src/siamvggtracker.py
+
+```
+
+NET_PATH = '$VOT-TOOLKIT/tracker/examples/python/pretrained/000100vggv1net1-5.weights'
+
+```
