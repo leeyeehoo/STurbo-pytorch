@@ -26,4 +26,10 @@ SiamVGG adopts SiamFC as the baseline approach. It applies a fully-convolutional
 
 * Please use Anaconda environment for the test
   
+  * python                    2.7.13
+  
+  * pytorch                   0.2.0
+  
+  * pillow                    4.1.1
+  
   * 
