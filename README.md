@@ -56,5 +56,14 @@ git clone https://github.com/votchallenge/vot-toolkit.git
 
 5. replace VOT-TOOLKIT/tracker/examples/python with tracker/examples/python
 
-6. 
+6. replace VOT-TOOLKIT/vot-workspace／tracker_SiamVGG.m with vot-workspace/tracker_SiamVGG.m
 
+7. modify line 17 in VOT-TOOLKIT/vot-workspace／tracker_SiamVGG.m
+
+```
+
+tracker_command = generate_python_command('python_siamvgg', {'VOT-TOOLKIT/tracker/examples/python'});
+
+```
+
+8. 
