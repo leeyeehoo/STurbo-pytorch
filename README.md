@@ -18,8 +18,12 @@ SiamVGG adopts SiamFC as the baseline approach. It applies a fully-convolutional
 
 ### Prerequisites
 
-* Cuda compilation tools version: release 8.0, V8.0.61
+* CUDA compilation tools version: release 8.0, V8.0.61
 
-* Nvidia driver version: 390.59
+* NVIDIA driver version: 390.59
 
 * MATLAB version: 9.3.0.713579 (R2017b)
+
+* Please use Anaconda environment for the test
+  
+  * 
