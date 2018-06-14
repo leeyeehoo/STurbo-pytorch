@@ -6,8 +6,6 @@ SiamVGG adopts SiamFC as the baseline approach. It applies a fully-convolutional
 
 ### Hardware Environment
 
-* Unordered sub-list. 
-
 * System: ubuntu 14.04 LTS
 
 * Memory: 15.6 GiB
@@ -19,4 +17,6 @@ SiamVGG adopts SiamFC as the baseline approach. It applies a fully-convolutional
 * OS type: 64-bit
 
 ### Prerequisites
+
+* CUDA 8.0, V8.0.61
 
