@@ -30,6 +30,11 @@ SiamVGG adopts SiamFC as the baseline approach. It applies a fully-convolutional
   
   * pytorch                   0.2.0
   
+  * torchvision               0.1.8
+  
   * pillow                    4.1.1
   
-  * 
+  * numpy                     1.12.1
+  
+  * hdf5                      1.8.17
+  
