@@ -38,7 +38,13 @@ SiamVGG adopts SiamFC as the baseline approach. It applies a fully-convolutional
   
   * hdf5                      1.8.17
   
-### Running the tests
+### Preparation for the tests
 
-1. 
+1. We assume the vot-toolkit root is VOT-TOOLKIT = /path/to/vot-toolkit
+
+```
+
+git clone https://github.com/votchallenge/vot-toolkit.git
+
+```
 
