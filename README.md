@@ -40,7 +40,7 @@ SiamVGG adopts SiamFC as the baseline approach. It applies a fully-convolutional
   
 ### Preparation for the tests
 
-1. We assume the vot-toolkit root is VOT-TOOLKIT = /path/to/vot-toolkit
+1. We assume the vot-toolkit root is VOT-TOOLKIT, and VOT-TOOLKIT = /path/to/vot-toolkit
 
 ```
 
