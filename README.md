@@ -38,3 +38,7 @@ SiamVGG adopts SiamFC as the baseline approach. It applies a fully-convolutional
   
   * hdf5                      1.8.17
   
+### Running the tests
+
+1. 
+
