@@ -48,3 +48,13 @@ git clone https://github.com/votchallenge/vot-toolkit.git
 
 ```
 
+2. add VOT-TOOLKIT and its subfolder to MATLAB path
+
+3. create VOT-TOOLKIT/vot-workspace
+
+4. run workspace_create.m in VOT-TOOLKIT/vot-workspace, assume your tracker as 'SiamVGG' with python interpreter.
+
+5. replace VOT-TOOLKIT/tracker/examples/python with tracker/examples/python
+
+6. 
+
