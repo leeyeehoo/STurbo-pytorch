@@ -76,3 +76,11 @@ tracker_command = generate_python_command('python_siamvgg', {'$VOT-TOOLKIT/track
 NET_PATH = '$VOT-TOOLKIT/tracker/examples/python/pretrained/000100vggv1net1-5.weights'
 
 ```
+### Results
+
+The results should be the same on VOT2018 dataset.
+
+|               | Baseline           | Long-term  |
+| ------------- |:-------------:| -----:|
+| EAO      | 0.285 | - |
+| TPR      | - | 0.459 |
