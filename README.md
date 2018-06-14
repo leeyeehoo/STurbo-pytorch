@@ -6,17 +6,17 @@ SiamVGG adopts SiamFC as the baseline approach. It applies a fully-convolutional
 
 ### Hardware Environment
 
-⋅⋅* Unordered sub-list. 
+⋅⋅⋅ Unordered sub-list. 
 
-⋅⋅* System: ubuntu 14.04 LTS
+⋅⋅⋅ System: ubuntu 14.04 LTS
 
-⋅⋅* Memory: 15.6 GiB
+⋅⋅⋅ Memory: 15.6 GiB
 
-⋅⋅* Processor: Intel Core i7-7700K CPU @4.20GHz * 8
+⋅⋅⋅ Processor: Intel Core i7-7700K CPU @4.20GHz * 8
 
-⋅⋅* Graphics: GeForce GTX 1080 Ti/PCle/SSE2
+⋅⋅⋅ Graphics: GeForce GTX 1080 Ti/PCle/SSE2
 
-⋅⋅* OS type: 64-bit
+⋅⋅⋅ OS type: 64-bit
 
 ### Prerequisites
 
